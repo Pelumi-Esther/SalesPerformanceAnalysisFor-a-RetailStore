@@ -67,13 +67,13 @@ The data analyzed was provided by The Incubator Hub [Download Here](https://docs
 
 ### How New Columns were created
 
-Order Day .............  =TEXT(E2, "ddd") 
+Order Day ............. ``` =TEXT(E2, "ddd") ```
 
-Order Month ...........  =TEXT(E2, "mmm")
+Order Month ........... ``` =TEXT(E2, "mmm") ```
 
-Order Year ............  =TEXT(E2, "yyy")
+Order Year ............ ``` =TEXT(E2, "yyy") ```
 
-Revenue ...............  =SUM(I2*J2)
+Revenue ............... ``` =SUM(I2*J2) ```
 
 ### Exploratory Data Analysis
 
@@ -81,11 +81,16 @@ The data was explored to provide answers to the following questions;
 
 - Avg sales per product
 
-  =AVERAGEIF(C2:C9922, "Hat", I2:I9922)
+```  =AVERAGEIF(C2:C9922, "Hat", I2:I9922) ```
 
 - Total revenue by region
 
-  =SUMIF(D2:D9922, "South", K2:K9922)
+ ``` =SUMIF(D2:D9922, "South", K2:K9922) ```
+
+ ### Data Analysis
+ 
+
+  
 
 
 
