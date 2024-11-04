@@ -65,7 +65,7 @@ The data analyzed was provided by The Incubator Hub [Download Here](https://docs
 - Ensured my data had clear headers
 - Made the data consistent
 
-### Functions, Formulas and New Columns
+### How New Columns were created
 
 Order Day .............  =TEXT(E2, "ddd") 
 
@@ -75,9 +75,17 @@ Order Year ............  =TEXT(E2, "yyy")
 
 Revenue ...............  =SUM(I2*J2)
 
-Avg sales per product .. =AVERAGEIF(C2:C9922, "Hat", I2:I9922)
+### Exploratory Data Analysis
 
-Total revenue by region  =SUMIF(D2:D9922, "South", K2:K9922)
+The data was explored to provide answers to the following questions;
+
+- Avg sales per product
+
+  =AVERAGEIF(C2:C9922, "Hat", I2:I9922)
+
+- Total revenue by region
+
+  =SUMIF(D2:D9922, "South", K2:K9922)
 
 
 
