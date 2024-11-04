@@ -16,6 +16,7 @@ The data analyzed for this report contains 6 distinct products;
 - Gloves
 - Socks
 - Jacket
+
 These product are spread across the following regions;
 - South
 - East
@@ -24,7 +25,7 @@ These product are spread across the following regions;
 
 ### About Data
 
-The data analyzed was provided by The Incubator Hub. The dataset contains sales transactions from the 4 different regions the store is located. The data originally contained 7 columns and 50001 rows, however, after cleaning the data we are left with 9922 rows and 11 columns.
+The data analyzed was provided by The Incubator Hub [Download Here](https://docs.google.com/spreadsheets/d/1wICM0no-Tro0hVhZwlUNi8u7bzkOnU-2kxRhH1T8GDA/edit?usp=sharing). The dataset contains sales transactions from the 4 different regions the store is located. The data originally contained 7 columns and 50001 rows, however, after cleaning the data we are left with 9922 rows and 11 columns.
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
@@ -60,10 +61,15 @@ The data analyzed was provided by The Incubator Hub. The dataset contains sales 
 ### Functions, Formulas and New Columns
 
 Order Day .............  =TEXT(E2, "ddd") 
+
 Order Month ...........  =TEXT(E2, "mmm")
+
 Order Year ............  =TEXT(E2, "yyy")
+
 Revenue ...............  =SUM(I2*J2)
+
 Avg sales per product .. =AVERAGEIF(C2:C9922, "Hat", I2:I9922)
+
 Total revenue by region  =SUMIF(D2:D9922, "South", K2:K9922)
 
 
