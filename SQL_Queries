@@ -1,0 +1,109 @@
+CREATE DATABASE XYZ_Store
+
+select * from SalesData
+
+--------total sales for each product category--------
+select distinct Product from SalesData
+------Shoes, Socks, Jacket, Hat, Gloves, Shirt--------
+
+select SUM (Quantity) AS ShoeTotalSale
+from SalesData
+Where Product = 'Shoes'
+
+select SUM (Quantity) AS SocksTotalSale
+from SalesData
+Where Product = 'Socks'
+
+select SUM (Quantity) AS JacketTotalSale
+from SalesData
+Where Product = 'Jacket'
+
+select SUM (Quantity) AS HatTotalSale
+from SalesData
+Where Product = 'Hat'
+
+select SUM (Quantity) AS GlovesTotalSale
+from SalesData
+Where Product = 'Gloves'
+
+select SUM (Quantity) AS ShirtTotalSale
+from SalesData
+Where Product = 'Shirt'
+
+-----------number of sales transactions in each region----------
+select distinct Region from SalesData
+------------East, North, South, West---------
+
+select SUM (Quantity) AS EastTotalSale
+from SalesData
+Where Region = 'East'
+
+select SUM (Quantity) AS NorthTotalSale
+from SalesData
+Where Region = 'North'
+
+select SUM (Quantity) AS SouthTotalSale
+from SalesData
+Where Region = 'South'
+
+select SUM (Quantity) AS WestTotalSale
+from SalesData
+Where Region = 'West'
+
+--------- highest-selling product by total sales value--------
+select SUM (Quantity), Product 
+from SalesData
+Group by Product
+Order by SUM (Quantity) Desc
+
+------------- total revenue per product---------
+select SUM (Revenue) AS ShoeTotalRevenue
+from SalesData
+Where Product = 'Shoes'
+
+select SUM (Revenue) AS ShirtTotalRevenue
+from SalesData
+Where Product = 'Shirt'
+
+select SUM (Revenue) AS HatTotalRevenue
+from SalesData
+Where Product = 'Hat'
+
+select SUM (Revenue) AS GlovesTotalRevenue
+from SalesData
+Where Product = 'Gloves'
+
+select SUM (Revenue) AS JacketTotalRevenue
+from SalesData
+Where Product = 'Jacket'
+
+select SUM (Revenue) AS SocksTotalRevenue
+from SalesData
+Where Product = 'Socks'
+
+-------------- monthly sales totals for the current year---------
+select distinct [Month], [Year]
+from SalesData
+where [Year] = '2024'
+----------Jan, Feb, Mar, Apr, May, Jun, Jul, Aug-------
+
+select SUM (Quantity) AS TotalSales, [Month]
+from SalesData
+Where Year = '2024'
+Group by [Month]
+Order by SUM (Quantity) desc
+
+----------top 5 customers by total purchase amount---------
+select top 5
+			SUM (Revenue) AS TotalPurchaseAmount,
+			CustomerID
+from SalesData
+Group by CustomerID
+Order by TotalPurchaseAmount Desc
+
+--------- percentage of total sales contributed by each region-------
+select distinct Region, SUM (Quantity), SUM (Quantity) / '68461' * '100'
+from SalesData
+Group by Region
+
+-------------products with no sales in the last quarter---------
