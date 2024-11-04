@@ -58,6 +58,13 @@ The data analyzed was provided by The Incubator Hub [Download Here](https://docs
 - Calculate the percentage of total sales contributed by each region.
 - Identify products with no sales in the last quarter.
 
+### Data Cleaning and Preparation
+
+- Identified and removed duplicates
+- Checked for blank cells
+- Ensured my data had clear headers
+- Made the data consistent
+
 ### Functions, Formulas and New Columns
 
 Order Day .............  =TEXT(E2, "ddd") 
