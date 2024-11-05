@@ -89,6 +89,8 @@ The data was explored to provide answers to the following questions;
 
 ### Data Analysis
 
+### Data Visualization
+
 ### Recommendation 
  
 
