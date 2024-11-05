@@ -87,7 +87,7 @@ The data was explored to provide answers to the following questions;
 
  ``` =SUMIF(D2:D9922, "South", K2:K9922) ```
 
- ### Data Analysis
+### Data Analysis
 
 ### Recommendation 
  
