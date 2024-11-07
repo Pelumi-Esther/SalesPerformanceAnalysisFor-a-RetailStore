@@ -91,6 +91,9 @@ The data was explored to provide answers to the following questions;
 
 ### Data Visualization
 
+![Dashboard 1](https://github.com/user-attachments/assets/e20b16bd-55f4-4e03-8902-e7c55ed85c3e)
+
+
 ### Recommendation 
  
 
