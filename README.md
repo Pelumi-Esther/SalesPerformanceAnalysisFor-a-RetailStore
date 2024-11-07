@@ -89,7 +89,7 @@ The data was explored to provide answers to the following questions;
 
 ### Data Analysis
 
-``` Select * From SalesAnalysis ```
+``` Select * From SalesData ```
 
 See more [Here](https://github.com/Pelumi-Esther/SalesPerformanceAnalysisFor-a-RetailStore/blob/main/SQL_Queries)
 
