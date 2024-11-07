@@ -89,6 +89,10 @@ The data was explored to provide answers to the following questions;
 
 ### Data Analysis
 
+``` Select * From SalesAnalysis ```
+
+See more [Here](https://github.com/Pelumi-Esther/SalesPerformanceAnalysisFor-a-RetailStore/blob/main/SQL_Queries)
+
 ### Data Visualization
 
 ![Dashboard 1](https://github.com/user-attachments/assets/e20b16bd-55f4-4e03-8902-e7c55ed85c3e)
