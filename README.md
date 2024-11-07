@@ -97,8 +97,21 @@ See more [Here](https://github.com/Pelumi-Esther/SalesPerformanceAnalysisFor-a-R
 
 ![Dashboard 1](https://github.com/user-attachments/assets/e20b16bd-55f4-4e03-8902-e7c55ed85c3e)
 
+### Insights
+
+- South region sold the most quantity of products, while the West sold the least quantity of products, 24,298 and 11,400 respectively.
+- Hat had the highest quantity sold, while Jacket had the least quantity sold.
+- The South region made 927,820 in revenue making it the region with the highest revenue, while the West region made 300,345 in revenue making it the region with the lowest revenue.
+- The product with the highest revenue is Shoes with 613,380 while Socks made the least revenue with 180,785.
+- Most products were purchased on Sundays while Mondays experienced the lowest sales.
 
 ### Recommendation 
+
+- Further investigation/research should be done to understand why the west has the least quantity of products sold and by extention the least revenue.
+- Socks should be positioned within reach from the shoes section.
+- Delivery services may be considered since customers may be busy to come to the store during weekdays.
+
+
  
 
   
